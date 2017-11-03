@@ -1,0 +1,53 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.wrapper{
+
+}
+
+.container{
+  width:385.6px;
+  margin:auto;
+}
+
+p{
+  font-size: 35px;
+  margin:10px 0px;
+  text-align: center;
+}
+
+
+
+table.cells {
+	border-collapse: collapse;
+}
+
+td {
+  display:inline-block;
+  padding: 1px;
+  border: solid 1px;
+}
+
+.right-border{
+  border-right: solid 1.5px;
+
+}
+
+.bottom-border{
+  border-bottom: solid 1.5px;
+}
+
+table input{
+  width:34.2px;
+  height:30px;
+  font-size:30px;
+  text-align: center;
+
+}
+
+#answer,#reset{
+  font-size:20px;
+  width:100%;
+  margin-top: 10px;
+}

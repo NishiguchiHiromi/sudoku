@@ -1,0 +1,2 @@
+class SudokuDatum < ApplicationRecord
+end
