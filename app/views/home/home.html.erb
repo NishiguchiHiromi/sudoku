@@ -16,9 +16,6 @@
             <% if j==3 or j==6 %>
               <td class="right-border"><input type="text"  maxlength="1" name="nums[<%=i%>][]" value="<%=ans%>" class="cell" id= <%= (10*i+j).to_s %>>
             <% else %>
-
-
-
               <td><input type="text"  maxlength="1" name="nums[<%=i%>][]" value="<%=ans%>" class="cell" id= <%= (10*i+j).to_s %>></td>
             <% end %>
           <% end %>

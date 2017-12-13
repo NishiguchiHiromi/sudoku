@@ -1,12 +1,11 @@
 class HomeController < ApplicationController
   def home
-    @nums={1 =>1}
-    @array=Array.new(9).map{ Array.new(9).map{[""]} }
+    @array = Array.new(9).map{ Array.new(9).map{[""]} }
   end
+
   def answer
-    @array_num=[]
-    @nums=params[:nums]
-    @array_num=@array_num.push(@nums["1"],@nums["2"],@nums["3"],@nums["4"],@nums["5"],@nums["6"],@nums["7"],@nums["8"],@nums["9"])
+    @array_num = []
+    @array_num = @array_num.push(params[:nums]["1"], params[:nums]["2"], params[:nums]["3"], params[:nums]["4"], params[:nums]["5"], params[:nums]["6"], params[:nums]["7"], params[:nums]["8"], params[:nums]["9"])
     require "rubypython"
     RubyPython.start
     dir = File.dirname(__FILE__)
