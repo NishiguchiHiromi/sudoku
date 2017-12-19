@@ -60,7 +60,7 @@
 #     # password: "please use keys"
 #   }
 # EC2サーバーのIP、EC2サーバーにログインするユーザー名、サーバーのロールを記述
-server '00.00.000.000', user: 'hiromi', roles: %w{app db web}
+server '54.92.34.69', user: 'hiromi', roles: %w{app db web}
 
 #デプロイするサーバーにsshログインする鍵の情報を記述
 set :ssh_options, keys: '~/.ssh/first_aws_rsa'
