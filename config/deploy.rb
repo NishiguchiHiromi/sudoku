@@ -3,12 +3,12 @@ lock "~> 3.10.1"
 
 set :application, "sudoku"
 set :repo_url, "git@github.com:NishiguchiHiromi/sudoku.git"
-
+set :branch, 'master'
 # Default branch is :master
 # ask :branch, `git rev-parse --abbrev-ref HEAD`.chomp
 
 # Default deploy_to directory is /var/www/my_app_name
- set :deploy_to, "/var/www/rails/sampleApp"
+ set :deploy_to, '/var/www/rails/sudoku'
 
 # Default value for :format is :airbrussh.
 # set :format, :airbrussh
