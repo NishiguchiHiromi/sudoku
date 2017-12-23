@@ -1,11 +1,10 @@
 require_relative 'boot'
 
 #require 'rails/all'        #->コメントアウト
-require "action_controller/railtie" #->追加
-require "action_mailer/railtie"     #->追加
-require "active_resource/railtie"   #->追加
-require "rails/test_unit/railtie"   #->追加
-require "sprockets/railtie"         #->追加
+require "action_controller/railtie"
+require "action_mailer/railtie"
+require "sprockets/railtie"
+require "rails/test_unit/railtie"
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
