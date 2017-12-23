@@ -52,9 +52,9 @@ production:
 adapter: mysql2
   encoding: utf8
   pool: 5
-  database: pictweet_production
+  database: sudoku_production
   username: root
-  password: sudoku
+  password:
   socket: /var/lib/mysql/mysql.sock
 #  username: sudoku
 #  password: <%= ENV['SUDOKU_DATABASE_PASSWORD'] %>
