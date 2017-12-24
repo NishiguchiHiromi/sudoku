@@ -24,8 +24,13 @@ table.cells {
   margin:auto;
 }
 
+tr{
+  font-size:0;
+}
+
 td {
   display:inline-block;
+  border-collapse: collapse;
   padding: 1px;
   border: solid 1px;
   width:40px;
@@ -42,14 +47,11 @@ td {
 }
 
 table input{
-  /*width:34.2px;
-  height:30px;*/
   box-sizing: border-box;
   width:100%;
   height:100%;
   font-size:30px;
   text-align: center;
-  margin:auto;
 }
 
 #answer,#reset{
