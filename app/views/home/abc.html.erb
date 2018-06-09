@@ -1,0 +1,26 @@
+<%= javascript_include_tag 'abcjs_basic_2.3-min.js' %>
+
+
+
+
+
+<div class="score">
+M:4/4
+L:1/4
+K:C
+CD EF | GA Bc ||
+</div>
+
+<div class="score">
+M:4/4
+L:1/4
+K:C
+CD EF | GA Bc | BA GF | ED C2 ||
+</div>
+
+<script>
+	var scoreObj = document.getElementsByClassName("score");
+	for( var i in scoreObj ){
+		ABCJS.renderAbc( scoreObj[i], scoreObj[i].innerHTML );
+	}
+</script>

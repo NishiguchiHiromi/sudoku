@@ -16,4 +16,7 @@ class HomeController < ApplicationController
     RubyPython.stop
     render :home
   end
+
+  def abc
+  end
 end
